@@ -9,8 +9,31 @@ h1 {
 	color:#603A03;
 }
 
+h2 {
+	font-family: Titulo;
+	font-size: 20px;
+	color: #FFF;
+}
+
+h3 {
+	font-family: Titulo;
+	font-size: 20px;
+	color: #603A03;
+}
+
 body {
 	background-image:url(../imgs/fundo.jpg);
+}
+
+#fim {
+	width: 350px;
+	height: 200px;
+	background-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	text-align: center;
+	padding: 10px;
 }
 
 #container{
@@ -122,6 +145,47 @@ body {
     -o-animation: play3 .5s .5s steps(7) infinite;
 }
 
+#disparo {
+	width: 50px;
+	height: 8px;
+	position: absolute;
+	background-image: url(../imgs/disparo.png);
+}
+
+#explosao1 {
+	width:15px;
+	height:87px;
+	position:absolute;
+}
+
+#explosao2 {
+	width:15px;
+	height:87px;
+	position:absolute;
+}
+
+#explosao3 {
+	width:44px;
+	height:51px;
+	position:absolute;
+}
+
+#placar {
+	width: 450px;
+	height: 50px;
+	position: absolute;
+	left: 5px;
+	top: 590px;
+}
+
+#energia {
+	width: 140px;
+	height: 38px;
+	position: absolute;
+	left: 750px;
+	top: 7px;
+}
+
 @keyframes play {
     from {background-position: 0px;}
     to {background-position: -512px;}
@@ -195,29 +259,4 @@ body {
 @-o-keyframes play3 {
     from {background-position: 0px;}
     to {background-position: -308px;}
-}
-
-#disparo {
-	width: 50px;
-	height: 8px;
-	position: absolute;
-	background-image: url(../imgs/disparo.png);
-}
-
-#explosao1 {
-	width:15px;
-	height:87px;
-	position:absolute;
-}
-
-#explosao2 {
-	width:15px;
-	height:87px;
-	position:absolute;
-}
-
-#explosao3 {
-	width:44px;
-	height:51px;
-	position:absolute;
 }
